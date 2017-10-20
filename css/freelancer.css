@@ -292,7 +292,7 @@ header.masthead {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #eeeeee; }
+  border-bottom: 1px solid #ff4755; }
   .floating-label-form-group input,
   .floating-label-form-group textarea {
     font-size: 1.5em;
@@ -404,16 +404,16 @@ footer {
   background-color: #ff4755; }
   .btn-success.focus, .btn-success:focus {
     color: white;
-    border-color: #0a4b3e;
-    background-color: #128f76; }
+    border-color: #d12734;
+    background-color: #d12734; }
   .btn-success:hover {
     color: white;
-    border-color: #11866f;
-    background-color: #128f76; }
+    border-color: #d12734;
+    background-color: #d12734; }
   .btn-success.active, .btn-success:active,
   .open > .btn-success.dropdown-toggle {
     color: white;
-    border-color: #11866f;
+    border-color: #d12734;
     background-color: #128f76; }
     .btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover,
     .open > .btn-success.dropdown-toggle.focus,
@@ -588,3 +588,21 @@ footer {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
+  .center-block {
+    float: none !important
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ff4755;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ff4755;
+    opacity:  1;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ff4755;
+    opacity:  1;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #ff4755;
+}
