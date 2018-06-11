@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="about me, chumothyLee">
+        <meta name="author" content="chumothyLee">
+        <title>chumothyLee | UnderwaterAcoustics</title>
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+            integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+            crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="./css/chumothyLee.css">
+    </head>
+    <body>
+        </head>
+        <body>
+            <header class="header">
+                <h1 class="as-text">Underwater Acoustics</h1>
+            </header>
+            <main class="wrapper container">
+                <ul class="list">
+                    <li><mark><a href="https://github.com/chumothyLee/UnderwaterAcoustics">Proj Github</a></mark></li>
+                    <li>An attempt at documentation can be found <mark><a href="https://underwateracoustics.netlify.com/">here</a></mark></li>
+                    <li>This project made with the help of<mark><a href="https://scripps.ucsd.edu/">The Scripps Institute of Oceanography</a></mark></li>
+                    <li>
+                        <h2 class="as-text">7 years of fish noise~*</h2>
+                        Following the Deepwater Horizon Oil Spill of 2010, researchers at the Scripps Institute of Oceanography decided to deploy a detector which recorded ocean sounds, primarily, fish noises (I didn't know fish made noises either)! It was left inthe area for 7 years and has since collected a significant amount of acoustic data.
+                    </li>
+                    <li>
+                        <h2 class="as-text">What do we do with these fish calls?~*</h2>
+                        Of the 7 years of acoustic data, researchers have been able to successfully anotate 2 years worth, classifying recurring acoustic patterns by the fish species that are believed to have produced them. This however, is not an efficient process and even if researchers were to successfully parse all of the data, the question remains: What should be done with all of this information?
+                    <li>
+                        <h2 class="as-text">Convolutional Neural Networks - waoo~*</h2>
+                        By taking the 2 years of annotated data and feeding it into a custom Convolutional Neural Network as training data, the remaining data can be systematically organized and classified. Further, by developing a detector in parallel, the Neural Network can be used as a research tool for the long-term surveilance of sea-life populations.
+                    </li>
+                    <li>
+                        <h2 class="as-text">Project Deliverables~*</h2>
+                        <ul class="list">
+                            <li>
+                                <h2 class="as-text">An Automated Detector~*</h2>
+                                that takes in acoustic data and outputs the time of signal occurence. An ideal implementation would require an efficient means of processing large amounts of data.
+                            </li>
+                            <li>
+                                <h2 class="as-text">An Interface~*</h2>
+                                a means of interfacing between detector and classifier. Additionally, a graphical executable that will allow researchers without a deep knowledge of MATLAB to use the tool.
+                            </li>
+                            <li>
+                                <h2 class="as-text">The Classifier~*</h2>
+                                a Convolutional Neural Network designed to classify fish species by the noises they produce. Continued development necessitates improved accuracy and runtime. Dr. Sirovic has also shown interest in generalizing the CNN as a tool for signal and acoustic classification.
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </main>
+            <script src="./stuff.js" type="text/javascript"></script>
+            <!--BOOTSTRAP JS SCRIPTS-->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" 
+                integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" 
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" 
+                integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" 
+                crossorigin="anonymous"></script>
+    </body>
+</html>
